@@ -44,6 +44,32 @@
     font-weight: 500;
 }
 
+/* whatsapp */
+.whatsapp {
+    position: fixed; /* Fija el botón en pantalla */
+    bottom: 20px; /* Distancia desde la parte inferior */
+    right: 20px; /* Distancia desde la derecha */
+    background-color: #25D366; /* Verde de WhatsApp */
+    color: white; /* Color del ícono */
+    width: 60px; /* Tamaño del botón */
+    height: 60px;
+    border-radius: 50%; /* Hace el botón circular */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2); /* Agrega sombra */
+    text-decoration: none; /* Quita el subrayado del enlace */
+    z-index: 1000; /* Asegura que esté por encima de otros elementos */
+}
+
+.whatsapp-icon {
+    font-size: 30px; /* Tamaño del ícono */
+    color: white; /* Asegura que el ícono sea blanco */
+}
+
+.whatsapp:hover {
+    background-color: #128C7E; /* Cambia de color al pasar el mouse */
+}
 
 
 /* Info Panel */
